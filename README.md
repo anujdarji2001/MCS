@@ -38,14 +38,17 @@ A RESTful backend API using FastAPI and MongoDB for a collaborative task manager
 
 ## Setup & Run
 1. **Clone the repo**
-2. **Create a virtual environment and activate it**
-3. **Install dependencies:**
+   ```bash
+   git clone https://github.com/anujdarji2001/MCS.git
+   ```
+3. **Create a virtual environment and activate it**
+4. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-4. **Create a `.env` file** in the project root (see below for example)
-5. **Start MongoDB server**
-6. **Run the app:**
+5. **Create a `.env` file** in the project root (see below for example)
+6. **Start MongoDB server**
+7. **Run the app:**
    ```bash
    uvicorn app.main:app --reload
    ```
